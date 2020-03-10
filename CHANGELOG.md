@@ -1,3 +1,12 @@
+## [0.1.2](https://github.com/rich-lab/arab/compare/v0.1.1...v0.1.2) (2020-03-10)
+
+
+### Features
+
+* set default node to 8.6.0 for cli preset ([f85b371](https://github.com/rich-lab/arab/commit/f85b3713b2833e23572e8a1ec17c43bdd64c58ee))
+
+
+
 ## [0.1.1](https://github.com/rich-lab/arab/compare/v0.1.0...v0.1.1) (2020-03-10)
 
 
