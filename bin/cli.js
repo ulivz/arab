@@ -5,7 +5,7 @@
 // For detailed usage, please head to https://github.com/cacjs/cac
 const cli = require('cac')()
 const chalk = require('chalk')
-const loadConfig = require('../lib/loadConfig')
+const loadConfig = require('../lib/load-config')
 const logger = require('../lib/logger')
 const babe = require('../lib')
 

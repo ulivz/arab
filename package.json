@@ -13,7 +13,7 @@
   "scripts": {
     "test": "jest",
     "cov": "jest --coverage",
-    "lint": "xo",
+    "lint": "xo lib --fix",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
@@ -23,12 +23,14 @@
   "author": "ULIVZ <chl814@foxmail.com>",
   "license": "MIT",
   "dependencies": {
-    "af-babel": "^0.1.0",
     "@babel/core": "^7.0.0",
+    "af-babel": "^0.1.0",
     "autoprefixer": "^9.7.4",
     "boxen": "^4.1.0",
     "cac": "6.4.0",
     "chalk": "^2.4.1",
+    "debug": "^4.1.1",
+    "globby": "^11.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-if": "^3.0.0",
     "gulp-less": "^4.0.1",
@@ -36,18 +38,25 @@
     "gulp-rename": "^1.4.0",
     "gulp-watch": "^5.0.1",
     "gzip-size": "^5.1.1",
+    "joycon": "^2.2.5",
     "postcss-plugin-px2rem": "^0.8.1",
     "pretty-bytes": "^5.3.0",
     "string-width": "^4.2.0",
     "text-table": "^0.2.0",
     "through2": "^3.0.1",
-    "vinyl-fs": "^3.0.3",
-    "joycon": "^2.2.5"
+    "vinyl-fs": "^3.0.3"
   },
   "devDependencies": {
-    "xo": "0.23.0",
     "conventional-changelog-cli": "^2.0.31",
-    "jest-cli": "^24.8.0"
+    "jest-cli": "^24.8.0",
+    "xo": "0.23.0"
   },
-  "xo": {}
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "prettier": true,
+    "rules": {
+      "no-await-in-loop": "off"
+    }
+  }
 }
