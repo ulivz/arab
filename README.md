@@ -1,6 +1,6 @@
 # bel
 
-[![TNPM version](https://npm.alibaba-inc.com/badge/v/bel.svg)](https://npm.alibaba-inc.com/package/bel) [![TNPM downloads](https://npm.alibaba-inc.com/badge/d/bel.svg)](https://npm.alibaba-inc.com/package/bel) [![install size](http://npg.dockerlab.alipay.net/badge?p=bel)](http://npg.dockerlab.alipay.net/result?p=bel)
+[![NPM version](https://img.shields.io/npm/v/bel.svg?style=flat)](https://npmjs.com/package/bel) [![NPM downloads](https://img.shields.io/npm/dm/bel.svg?style=flat)](https://npmjs.com/package/bel) ![Node.js CI](https://github.com/rich-lab/bel/workflows/Node.js%20CI/badge.svg) [![codecov](https://codecov.io/gh/rich-lab/bel/branch/master/graph/badge.svg)](https://codecov.io/gh/rich-lab/bel)
 
 ## Install
 
@@ -10,12 +10,10 @@ tnpm install bel --save-dev
 
 ## Usage
 
-> TODO: enhancement
-
 ```bash
-babe # Build for client library.
-babe --preset=cli # Build Node CLI.
-babe --monorepo # Enable monorepo build.
+bel # Build for client library.
+bel --preset=cli # Build Node CLI.
+bel --monorepo # Enable monorepo build.
 ```
 
 ## Contributing
