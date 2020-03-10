@@ -16,6 +16,23 @@ arab --preset=cli # Build Node CLI.
 arab --monorepo # Enable monorepo build.
 ```
 
+## Options
+
+### preset
+
+- Type: `'app' | 'cli'`
+- Description: build preset.
+
+The internal presets have following meanings:
+
+- `'app'`: transpiled to ES Modules, and using the appropriate babel config for mobile application, tagets: `{ ios: 8, android: 4 }`;               
+- `'cli'`: transpiled to CommonJS Modules, and set targets to `{ node: 8 }`;
+
+### monorepo
+
+- Type: `boolean`
+- Description: whether to enable build for monorepo.
+
 ## Contributing
 
 1. Fork it!
