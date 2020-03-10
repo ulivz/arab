@@ -11,7 +11,8 @@
     "lib"
   ],
   "scripts": {
-    "test": "npm run lint && jest",
+    "test": "jest",
+    "cov": "jest --coverage",
     "lint": "xo",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
