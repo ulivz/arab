@@ -4,7 +4,7 @@
   "description": "A zero-config library transarab based on baarab (Transpile only & No Bundle)",
   "main": "index.js",
   "bin": {
-    "babe": "bin/cli.js"
+    "arab": "bin/cli.js"
   },
   "files": [
     "bin",
