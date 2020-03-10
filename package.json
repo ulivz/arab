@@ -1,7 +1,7 @@
 {
   "name": "bel",
-  "version": "0.2.1",
-  "description": "Shorter than babel, simpler than babel.",
+  "version": "0.0.1",
+  "description": "A zero-config library transpiler based on babel (Transpile only & No Bundle)",
   "main": "index.js",
   "bin": {
     "babe": "bin/cli.js"
@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "test": "npm run lint && jest",
-    "lint": "xo"
+    "lint": "xo",
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
     "url": "https://github.com/rich-lab/bel",
@@ -43,7 +44,9 @@
     "joycon": "^2.2.5"
   },
   "devDependencies": {
-    "xo": "0.23.0"
+    "xo": "0.23.0",
+    "conventional-changelog-cli": "^2.0.31",
+    "jest-cli": "^24.8.0"
   },
   "xo": {}
 }
