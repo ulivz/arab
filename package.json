@@ -1,7 +1,7 @@
 {
-  "name": "bel",
+  "name": "arab",
   "version": "0.0.1",
-  "description": "A zero-config library transpiler based on babel (Transpile only & No Bundle)",
+  "description": "A zero-config library transarab based on baarab (Transpile only & No Bundle)",
   "main": "index.js",
   "bin": {
     "babe": "bin/cli.js"
@@ -16,7 +16,7 @@
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {
-    "url": "https://github.com/rich-lab/bel",
+    "url": "https://github.com/rich-lab/arab",
     "type": "git"
   },
   "author": "ULIVZ <chl814@foxmail.com>",
