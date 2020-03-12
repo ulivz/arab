@@ -5,36 +5,25 @@
 // For detailed usage, please head to https://github.com/cacjs/cac
 const cli = require('cac')()
 const chalk = require('chalk')
-const loadConfig = require('../lib/load-config')
 const logger = require('../lib/logger')
 const arab = require('../lib')
 
-function wrapCommand(command, configKey) {
+function wrapCommand(command) {
   return async cliFlags => {
-    const userConfig = await loadConfig() || {}
-    const commandConfig = (configKey ? userConfig[configKey] : userConfig) || {}
-    const globalConfig = userConfig.global || {}
+    cliFlags.cwd = cliFlags.cwd || process.cwd()
 
-    const mergedConfig = {
-      ...globalConfig,
-      ...commandConfig,
-      ...cliFlags,
-    }
-
-    mergedConfig.cwd = mergedConfig.cwd || process.cwd()
-
-    if (mergedConfig.debug) {
+    if (cliFlags.debug) {
       logger.enableDebug()
     }
 
-    logger.debug('mergedConfig', mergedConfig)
+    logger.debug('mergedConfig', cliFlags)
 
     try {
-      await command(mergedConfig)
+      await command(cliFlags)
     } catch (e) {
       console.log()
       process.exitCode = 1
-      console.log(chalk.red(e.stack))
+      console.log(chalk.red(e && e.stack))
       console.log()
     }
   }
@@ -42,6 +31,9 @@ function wrapCommand(command, configKey) {
 
 cli
   .command('', require('../package').description)
+  .option('-d, --dts', 'Generate declaration for TypeScript files, defaults tp false.')
+  .option('-s, --sourceToLib', 'Copy source from "src" to "lib", it will speed up build largely.')
+  .option('-e, --enableTsConfig', 'Read tsconfig.json under generating d.ts files.')
   .option('--monorepo', 'Enable monorepo transpliation.')
   .option('--preset [preset]', 'Transpile Preset, defaults to "app", available values: "app" | "cli"')
   .option('--runInBand', 'runInBand.')

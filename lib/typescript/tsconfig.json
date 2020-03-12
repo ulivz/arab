@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "emitDeclarationOnly": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "jsx": "react",
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "skipLibCheck": true,
+    "checkJs": false,
+    "noStrictGenericChecks": true,
+    "isolatedModules": true
+  },
+  "exclude": [
+    "node_modules",
+    "scripts",
+    "webpack",
+    "jest",
+    "dist"
+  ],
+  "include": [
+    "./src",
+    "./typings/"
+  ]
+}
