@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/rich-lab/arab/compare/v0.2.0...v0.3.0) (2020-03-12)
+
+
+### Features
+
+* removing gulp-typescript implement generating d.ts ([c96e1ea](https://github.com/rich-lab/arab/commit/c96e1ea7c473ef3b461ea89097be6ccfcaa9138c))
+
+
+
 # [0.2.0](https://github.com/rich-lab/arab/compare/v0.1.2...v0.2.0) (2020-03-12)
 
 
