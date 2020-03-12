@@ -1,6 +1,6 @@
 {
   "name": "arab",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A zero-config library transarab based on baarab (Transpile only & No Bundle)",
   "main": "index.js",
   "bin": {
