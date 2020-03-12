@@ -6,7 +6,7 @@
 const cli = require('cac')()
 const chalk = require('chalk')
 const logger = require('../lib/logger')
-const babe = require('../lib')
+const arab = require('../lib')
 
 function wrapCommand(command) {
   return async cliFlags => {
@@ -39,7 +39,7 @@ cli
   .option('--runInBand', 'runInBand.')
   .option('--debug', 'Debug mode.')
   .option('--watch', 'Watch mode.')
-  .action(wrapCommand(babe))
+  .action(wrapCommand(arab))
 
 // Display help message when `-h` or `--help` appears
 cli.help()
