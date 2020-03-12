@@ -1,3 +1,12 @@
+# [0.2.0](https://github.com/rich-lab/arab/compare/v0.1.2...v0.2.0) (2020-03-12)
+
+
+### Features
+
+* generate d.ts and speed up build for monorepo. ([7a8f4c0](https://github.com/rich-lab/arab/commit/7a8f4c0ec14bad5e4f367dd0d6bbb9f3aca0c1ba))
+
+
+
 ## [0.1.2](https://github.com/rich-lab/arab/compare/v0.1.1...v0.1.2) (2020-03-10)
 
 
