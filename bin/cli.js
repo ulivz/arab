@@ -32,7 +32,7 @@ function wrapCommand(command) {
 cli
   .command('', require('../package').description)
   .option('-d, --dts', 'Generate declaration for TypeScript files, defaults tp false.')
-  .option('-s, --sourceToLib', 'Copy source from "src" to "lib", it will speed up build largely.')
+  .option('-s, --sourceTsToLib', 'Copy source ts files from "src" to "lib", it will speed up build largely.')
   .option('-e, --enableTsConfig', 'Read tsconfig.json under generating d.ts files.')
   .option('--monorepo', 'Enable monorepo transpliation.')
   .option('--preset [preset]', 'Transpile Preset, defaults to "app", available values: "app" | "cli"')

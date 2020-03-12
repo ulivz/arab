@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`generate d.ts 1`] = `
+Object {
+  "/Users/ulivz/Documents/ulivz/babe/__tests__/fixtures/ts/export-interface.ts": Object {
+    "dts": "import { IFoo } from './interface';
+export interface IFoo2 extends IFoo {
+    title: string;
+}
+export declare function App(): void;
+",
+  },
+}
+`;
+
+exports[`generate d.ts for .tsx 1`] = `
+Object {
+  "/Users/ulivz/Documents/ulivz/babe/__tests__/fixtures/tsx/index.tsx": undefined,
+}
+`;

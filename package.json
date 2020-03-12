@@ -14,7 +14,9 @@
     "test": "jest",
     "cov": "jest --coverage",
     "lint": "xo lib --fix",
-    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+    "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
+    "dev": "arab --watch",
+    "build": "arab"
   },
   "repository": {
     "url": "https://github.com/rich-lab/arab",
@@ -29,7 +31,9 @@
     "boxen": "^4.1.0",
     "cac": "6.4.0",
     "chalk": "^2.4.1",
+    "chokidar": "^3.3.1",
     "debug": "^4.1.1",
+    "fs-extra": "^8.1.0",
     "globby": "^11.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-clone": "^2.0.1",
@@ -52,6 +56,7 @@
     "vinyl-fs": "^3.0.3"
   },
   "devDependencies": {
+    "arab": "^0.2.0",
     "conventional-changelog-cli": "^2.0.31",
     "jest-cli": "^24.8.0",
     "xo": "0.23.0"
