@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/rich-lab/arab/compare/v0.3.1...v0.3.2) (2020-03-17)
+
+
+### Bug Fixes
+
+* watched main stream should be closed when process received SIGINT or SIGTERM. ([1344d04](https://github.com/rich-lab/arab/commit/1344d0490327e2e84907636a5b0c672b40bb67e4))
+
+
+
 ## [0.3.1](https://github.com/rich-lab/arab/compare/v0.3.0...v0.3.1) (2020-03-17)
 
 
