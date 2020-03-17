@@ -16,7 +16,8 @@
     "lint": "xo lib --fix",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "dev": "arab --watch",
-    "build": "arab"
+    "build": "arab",
+    "postpublish": "depcost --record --npm-client=yarn"
   },
   "repository": {
     "url": "https://github.com/rich-lab/arab",
@@ -58,6 +59,7 @@
   "devDependencies": {
     "arab": "^0.2.0",
     "conventional-changelog-cli": "^2.0.31",
+    "depcost": "^0.2.1",
     "jest-cli": "^24.8.0",
     "xo": "0.23.0"
   },
