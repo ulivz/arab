@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/rich-lab/arab/compare/v0.3.0...v0.3.1) (2020-03-17)
+
+
+### Bug Fixes
+
+* watcher should be closed when process exits. ([a771ccb](https://github.com/rich-lab/arab/commit/a771ccb76dc2c295d1246e2e308cf3af85ce4d5a))
+
+
+
 # [0.3.0](https://github.com/rich-lab/arab/compare/v0.2.0...v0.3.0) (2020-03-12)
 
 
