@@ -1,3 +1,12 @@
+## [0.3.4](https://github.com/rich-lab/arab/compare/v0.3.3...v0.3.4) (2020-04-01)
+
+
+### Bug Fixes
+
+* bump af-babel to 0.1.1 ([17f46d2](https://github.com/rich-lab/arab/commit/17f46d22f2bf1d757e37d636bd36a9c1e0a8741e))
+
+
+
 ## [0.3.3](https://github.com/rich-lab/arab/compare/v0.3.2...v0.3.3) (2020-03-20)
 
 

@@ -1,3 +1,10 @@
+## 0.3.4
+
+| name | install size | reuqire time |
+| ---  | --- | --- |
+| arab@0.3.4 | 164M | 1.718ms |
+
+
 ## 0.3.3
 
 | name | install size | reuqire time |
