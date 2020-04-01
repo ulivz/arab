@@ -1,3 +1,14 @@
+## [0.3.3](https://github.com/rich-lab/arab/compare/v0.3.2...v0.3.3) (2020-03-20)
+
+
+### Features
+
+* add shortcut -w for --watch flag. ([d89efd8](https://github.com/rich-lab/arab/commit/d89efd8f278f20403ca332dd08db35d62168d781))
+* do not use "gulpOutputFilesLogger" under watch mode. ([d162f9d](https://github.com/rich-lab/arab/commit/d162f9dce06de2c4598f41e447554dd88d5489df))
+* replace original content to error log for build failed files. ([315d021](https://github.com/rich-lab/arab/commit/315d02134bd5a10e40fe852e6b2047566ca8557b))
+
+
+
 ## [0.3.2](https://github.com/rich-lab/arab/compare/v0.3.1...v0.3.2) (2020-03-17)
 
 
